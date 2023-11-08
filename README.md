@@ -35,7 +35,13 @@
 
 更新Markdown格式文章和可能涉及的相关源码
 
-知乎读者需要源码请移步GitHub下载，GitHub相关库将会在第一篇文章发出时创建，届时会将链接放在此处。不会使用GitHub无需担心，GitHub的教程笔者也会撰写。
+知乎读者需要源码请移步GitHub下载。
+
+GitHub仓库已经创建，但是尚未更新内容。
+
+GitHub仓库地址：https://github.com/sixpigs1/Tutorials-for-Freshman.git
+
+不会使用GitHub无需担心，GitHub的教程笔者也会撰写。
 
 # 声明
 - 由于作者只是两位普通大学学生，学艺不精。可能存在错误或者不全面的地方，欢迎各位大佬指正。
