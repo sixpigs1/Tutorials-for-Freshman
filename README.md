@@ -12,7 +12,7 @@
 
 作者在此处提前给自己挖坑，预计可能包含（暂时想到的，以后可能还会补充）：
 
-- LaTeX 介绍与基本语法 https://zhuanlan.zhihu.com/p/665393031
+- [LaTeX 介绍与基本语法](https://zhuanlan.zhihu.com/p/665393031) 
 - LaTeX 进阶使用
 - Markdown介绍与语法
 - Git 的简单使用
@@ -39,7 +39,7 @@
 
 GitHub仓库已经创建，但是尚未更新内容。
 
-GitHub仓库地址：https://github.com/sixpigs1/Tutorials-for-Freshman.git
+[GitHub仓库链接](https://github.com/sixpigs1/Tutorials-for-Freshman.git)
 
 不会使用GitHub无需担心，GitHub的教程笔者也会撰写。
 
