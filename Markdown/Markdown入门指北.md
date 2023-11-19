@@ -19,6 +19,7 @@ Markdown 可以用 Windows 系统自带的记事本进行打开与编辑。这�
 - `Markdown All in One`   实现VScode中Markdown的基本功能
 - `Markdown PDF`   实现将Markdown转化为PDF
 - `markdownlint`   Markdown的语法检查器
+- `Markdown Preview Enhanced` 提供一些更全面的预览
 
 本文所有对于Markdown的介绍都将基于VScode平台进行。
 
