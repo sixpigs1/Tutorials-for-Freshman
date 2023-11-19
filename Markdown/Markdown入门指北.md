@@ -33,21 +33,25 @@ Markdown 中标题有两种实现形式：
 
 Example:
 
+```Markdown
 # 一级标题
 ## 二级标题
 ### 三级标题
 #### 四级标题
 ##### 五级标题
 ###### 六级标题
+```
 
 2. 用`=====`和`-----`(=和-的数量至少两个，但是为了编辑时方便看清楚通常建议打一排)
 
 Example:
 
+```Markdown
 一级标题
 ================
 二级标题
 -----------------
+```
 
 **建议使用第一种表达方法，因为第一种方式更加简洁且可以实现的标题级数更多**
 
@@ -57,15 +61,19 @@ Example:
 
 Example: 
 
+```Markdown
 **粗体 Bold**
 __粗体 Bold__
+```
 
 2. 斜体： 将需要斜体的内容用两个`*`或`_`包围起来
 
 Example:
 
+```Markdown
 *斜体 italic*
 _斜体 italic_
+```
 
 **建议使用`*`来表示粗体和斜体，因为在编辑时*的可读性比_更强**
 
@@ -77,19 +85,25 @@ _斜体 italic_
 
 Example1:
 
+```Markdown
 我是第一行
 我是第二行
+```
 
 Example2(加空格):
 
+```Markdown
 我是第一行  
 我是第二行
+```
 
 Example3:
 
+```Markdown
 我是第一行
 
 我是第二行
+```
 
 **建议用空一行的方式进行换段**
 
@@ -101,9 +115,11 @@ Example3:
 
 Example:
 
+```Markdown
 1. item1
 2. item2
 3. item3
+```
 
 *注意使用`.`而不是`。`*
 
@@ -113,21 +129,27 @@ Example:
 
 Example1(*):
 
+```Markdown
 * item1
 * item2
 * item3 
+```
 
 Example2(+):
 
+```Markdown
 + item1
 + item2
 + item3
+```
 
 Example3(-):
 
+```Markdown
 - item1
 - item2
 - item3
+```
 
 *可见，三种表示方法是等价的*
 
@@ -135,9 +157,11 @@ Example3(-):
 
 Example:
 
+```Markdown
 * item1
 + item2
 - item3 
+```
 
 3. 嵌套列表
 
@@ -147,6 +171,7 @@ Example:
 
 Example:
 
+```Markdown
 * item1
 * item2
      - subitem1
@@ -158,6 +183,7 @@ Example:
      + subitem1
           * subsubitem
      + subitem2
+```
 
 **建议使用`- `来表示无序列表，因为`* `容易与粗体斜体混淆并且`- `更常用**
 
@@ -167,15 +193,21 @@ Example:
 
 Example:
 
+```Markdown
 ***
+```
 
 or
 
+```Markdown
 ---
+```
 
 or
 
+```Markdown
 ___
+```
 
 可以发现，三种用法产生的分割线效果是相同的。
 
@@ -185,9 +217,11 @@ ___
 
 Example:
 
+```Markdown
 ![一些文字](Markdown.png)
 
 ![一些文字]()
+```
 
 从这两个例子里我们可以看到，图片地址为相对路径，通常与Markdown文件放在同一个文件夹内时只要添加图片文件名即可。如果图片地址无法找到会显示一个图片表示失败的小符号。此外，图片替代文字只有在图片未正常显示时会起到作用。
 
@@ -197,9 +231,11 @@ Example:
 
 Example:
 
+```Markdown
 [github官网网址](https://github.com/)
 
 <https://github.com/>
+```
 
 ## 代码
 
@@ -209,7 +245,9 @@ Markdown中行内代码用`   ``   `符号包裹。
 
 Example:
 
+```Markdown
 `行内代码`
+```
 
 - 代码块
 
@@ -218,14 +256,12 @@ Example:
 
 Example:
 
+```Markdown
      #include <stdio.h>
-     int main(){
+          int main(){
           printf("Hello World!");
      }
-
-**推荐第二种方式**
-
-在这两种方式的对比中，我们可以看到第二种方式既方便表示和编辑，又可以获得高亮视觉效果更好。
+```
 
 ## 引用
 
@@ -233,8 +269,10 @@ Example:
 
 Example:
 
+```Markdown
 > 其实世上本没有路，走的人多了，也就成了路。 
 > ——鲁迅
+```
 
 ## 转义
 
@@ -263,7 +301,9 @@ Example:
 
 Example：
 
+```Markdown
 ~~删除线示例~~
+```
 
 ## 表情
 
@@ -271,7 +311,9 @@ Example：
 
 Example：
 
+```Markdown
 :smile:
+```
 
 更多表情请根据这个链接:[表情链接](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
@@ -286,10 +328,12 @@ Example：
 
 Example:
 
+```Markdown
 a|b|c
 :---|:---:|---:
 dddddd|eeeeee|fffffff
 g|h|i
+```
 
 ## 任务列表
 
@@ -299,14 +343,18 @@ g|h|i
 
 Example：
 
+```Markdown
 - [ ] 任务一
 - [x] 任务二
+```
 
 ## 代码块++
 
 在Markdown中可以用` ``` `或者`~~~`在前后包裹代码来表示代码块。其中可以在前面的` ``` `或者`~~~`后增加所用代码语言的类型来获取相应的代码高亮。
 
 Example:
+
+```Markdown
 
 ```C
 #include <stdio.h>
@@ -315,12 +363,24 @@ int main(){
 }
 ```
 
+```
+
+**推荐这一种方式**
+
+在这两种方式的对比中，我们可以看到这种方式相对于前面的方式既方便表示和编辑，又可以获得高亮视觉效果更好。
+
 ## $\LaTeX$ 公式编辑
 
 与 $\LaTeX$ 相似，Markdown书写公式也是用两个`$`包裹起来并且与 $\LaTeX$ 用法完全相同。
 
 Example:
 
+```Markdown
 $\int \cos x dx = \sin x $
+```
 
 关于 $\LaTeX$ 的更多介绍可以参看以下文章:[LaTeX 介绍与基本语法](https://zhuanlan.zhihu.com/p/665393031)
+
+# 声明
+- 本文参考《了不起的Markdown》（毕小朋著，电子工业出版社），摘取笔者认为适合初学者入门的部分，可有效降低上手成本。
+- 转载请注明出处并放置相关链接

@@ -14,7 +14,7 @@
 
 - [LaTeX 介绍与基本语法](https://zhuanlan.zhihu.com/p/665393031) 
 - LaTeX 进阶使用
-- Markdown介绍与语法
+- [Markdown介绍与语法](https://zhuanlan.zhihu.com/p/667641324)
 - Git 的简单使用
 - WSL 介绍与基本使用
 - MakeFile 的编写
@@ -36,8 +36,6 @@
 更新Markdown格式文章和可能涉及的相关源码
 
 知乎读者需要源码请移步GitHub下载。
-
-GitHub仓库已经创建，但是尚未更新内容。
 
 [GitHub仓库链接](https://github.com/sixpigs1/Tutorials-for-Freshman.git)
 
