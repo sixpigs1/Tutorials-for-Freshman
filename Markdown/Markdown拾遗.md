@@ -126,7 +126,7 @@ quadrantChart
     title quadrantChart Example
     x-axis Low Reach --> High Reach
     y-axis Low Engagement --> High Engagement
-    quadrant-1 We should expand
+    quadrant-1 We should expandj
     quadrant-2 Need to promote
     quadrant-3 Re-evaluate
     quadrant-4 May be improved
@@ -150,7 +150,7 @@ quadrantChart
 
 ```mermaid
 xychart-beta
-    title "Sales Revenue"
+    title "xy Example"
     x-axis "Time" [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
     y-axis "Revenue (in $)" 4000 --> 11000
     bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
