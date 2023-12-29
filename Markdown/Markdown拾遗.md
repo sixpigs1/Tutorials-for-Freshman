@@ -43,8 +43,7 @@ sequenceDiagram
         John->>John: Message 3
         John->>Alice: Message 4
     end
-    Note right of John: Rational thoughts <br
-    >prevail!
+    Note right of John: A note
 ```
 
 这是一个简单的时序图，描述了Alice发送消息给John，并给自己发送消息，然后John在一个循环中给自己发送消息并回复消息的过程。
@@ -54,7 +53,6 @@ sequenceDiagram
 - 每次发消息的语法是`A->>B: Message`
 - 可以用loop语句创建一个循环
 - 可以用Note来创建一个注释，语法是`Note left/right of C`，C表示一个人名，意思是在C的左边或右边添加一个注释
-- 注释中可以用`<br/>`来进行换行
 
 ## 甘特图
 
